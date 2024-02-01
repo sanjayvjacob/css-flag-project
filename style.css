@@ -1,14 +1,39 @@
+/* Red Rectangle */
 .flag {
   background-color: #CE1126;
   width: 900px;
   height: 600px;
-  position: relative;
+  position: relative; /* parent */
 }
 
-.flag > p {
+/* Blue Rectangle */
+.flag > div { /* Child combination */
+  background-color: #002868;
+  height: 300px;
+  width: 100%;
+  position: absolute; /* child - Blue rectangle relative to red rectangle */
+  top: 150px;
+}
+
+/* White Circle */
+.flag > div > div { /* Descendant combination */
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  top: 50px;
+  left: 350px;
+  position: relative; /* White circle (child) relative to blue rectangle */
+}
+
+p { 
   color: white;
+  font-size: 5rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
-.flag>div div p {
+.flag div div p {
   color: black;
 }
