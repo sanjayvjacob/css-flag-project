@@ -1,0 +1,14 @@
+.flag {
+  background-color: #CE1126;
+  width: 900px;
+  height: 600px;
+  position: relative;
+}
+
+.flag > p {
+  color: white;
+}
+
+.flag>div div p {
+  color: black;
+}
