@@ -1,9 +1,9 @@
 # The Flag of Laos
 
-# Screenshot
+Screenshot
 
 ![](./screenshot.png)
 
-# Live site URL
+Live site URL
 
 https://sanjayvjacob.github.io/css-flag-project/
